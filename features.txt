@@ -1,0 +1,9 @@
+Opcode | Operation | Description
+000 | ADD | Adds A and B (4-bit)
+001 | SUB | Subtracts B from A
+010 | MUL | Multiplies A and B
+011 | DIV | Divides A by B (if B ≠ 0)
+100 | AND | Bitwise AND
+101 | OR  | Bitwise OR
+110 | XOR | Bitwise XOR
+111 | ROL | Custom operation: Rotate Left A by 1 bit
