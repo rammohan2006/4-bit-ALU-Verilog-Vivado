@@ -1,12 +1,12 @@
-# 🔶 4-bit Modular Arithmetic Logic Unit (ALU) – Verilog HDL
+# 4-bit Modular Arithmetic Logic Unit (ALU) – Verilog HDL
 
-### 🧠 Project Overview
+### Project Overview
 This project implements a **4-bit modular Arithmetic Logic Unit (ALU)** in **Verilog HDL**, designed and simulated using **Xilinx Vivado 2025.1**.  
 The ALU performs **eight arithmetic and logical operations** selected through a 3-bit `opcode`, with each operation implemented in a separate Verilog module for modularity and scalability.
 
 ---
 
-### ⚙️ Features and Specifications
+### Features and Specifications
 | Signal | Width | Description |
 |---------|--------|-------------|
 | **A** | 4-bit | Operand 1 |
@@ -16,7 +16,7 @@ The ALU performs **eight arithmetic and logical operations** selected through a 
 
 ---
 
-### 🧩 Supported Operations
+### Supported Operations
 | Opcode | Operation | Description |
 |---------|------------|-------------|
 | 000 | **ADD** | Adds A and B |
@@ -30,7 +30,7 @@ The ALU performs **eight arithmetic and logical operations** selected through a 
 
 ---
 
-### 🧱 Project Structure
+### Project Structure
 ```
 4-bit-ALU-Verilog-Vivado/
 │
@@ -57,19 +57,19 @@ The ALU performs **eight arithmetic and logical operations** selected through a 
 
 ---
 
-### 🧪 Simulation Details
+### Simulation Details
 - **Tool Used:** Xilinx Vivado 2025.1  
 - **Simulation Type:** Behavioral  
 - **Testbench:** `alu_tb.v`  
 - Each test case runs for **10 ns** before opcode changes.  
 - The waveform below shows correct execution of all operations (000–111):
 
-#### 🖼️ Simulation Waveform
+#### Simulation Waveform
 ![ALU Simulation Waveform](report/waveforms/alu_waveform.png)
 
 ---
 
-### 🧾 Design Highlights
+### Design Highlights
 - Fully **modular and hierarchical** structure.  
 - **Custom operation (ROL)** demonstrates creativity and Verilog mastery.  
 - **8-bit result** supports larger arithmetic operations.  
@@ -77,7 +77,7 @@ The ALU performs **eight arithmetic and logical operations** selected through a 
 
 ---
 
-### 🛠️ How to Simulate (Vivado)
+### How to Simulate (Vivado)
 1. Open **Vivado → Create New RTL Project**
 2. Add all `.v` files as **Design Sources** and `alu_tb.v` as **Simulation Source**
 3. Set **`alu_tb`** as the top simulation module  
@@ -86,7 +86,7 @@ The ALU performs **eight arithmetic and logical operations** selected through a 
 
 ---
 
-### 🚀 Key Learnings
+### Key Learnings
 - Modular RTL design and hierarchical integration  
 - Writing self-checking Verilog testbenches  
 - Using Vivado for simulation and waveform analysis  
@@ -94,25 +94,25 @@ The ALU performs **eight arithmetic and logical operations** selected through a 
 
 ---
 
-### 💡 Future Enhancements
+### Future Enhancements
 - Add **Overflow**, **Carry**, and **Zero** flags  
 - Extend to **8-bit or 16-bit ALU**  
 - Implement **pipelining** for high-performance designs  
 
 ---
 
-### 👤 Author
+### Author
 **Rammohan M**  
 B.Tech CSE (Cyber Security) – **SNU Chennai**  
 BS in Electronic Systems – **IIT Madras**
 
-📧 Email: rammohan15122006@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/rammohan06](https://www.linkedin.com/in/rammohan06/)  
-🧰 GitHub: [github.com/rammohan2006](https://github.com/rammohan2006)
+Email: rammohan15122006@gmail.com  
+LinkedIn: [linkedin.com/in/rammohan06](https://www.linkedin.com/in/rammohan06/)  
+GitHub: [github.com/rammohan2006](https://github.com/rammohan2006)
 
 ---
 
-### 🏁 License
+### License
 This project is open-source and available under the **MIT License**.  
 Feel free to use, modify, and distribute for educational purposes.
 
